@@ -37,7 +37,7 @@ let getWeather = () => {
                 setm = sunset.getMinutes();
               
                 result.innerHTML = `
-            <div class="heading mt-5"><h1 style="color: white;">Current Wethar of ${cityvalue}</h1> </div>
+            <div class="heading mt-5"><h1 style="color: white;">Current Weather of ${cityvalue}</h1> </div>
             <div class="d-flex justify-content-around text-center mt-5" >
                 
               <div class="col-md-3">
